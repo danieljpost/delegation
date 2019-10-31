@@ -89,7 +89,7 @@ function thelist($id) {
             </div>
             <blockquote class="view-source">
                 <h3>Click to show/hide JavaScript Source</h3>
-                <code><?readfile('js/sub-optimal.js');?></code>
+                <code><?php readfile('js/sub-optimal.js');?></code>
             </blockquote>
             <p><em>Did you find the bug in the source code?</em></p>
             <p>Now, click around a bit. Take a look at the &quot;Number of clicks tracked&quot;</p>
@@ -110,7 +110,7 @@ function thelist($id) {
             </div>
             <blockquote class="view-source">
                 <h3>Click to show/hide JavaScript Source</h3>
-                <code><?readfile('js/more-optimal.js');?></code>
+                <code><?php readfile('js/more-optimal.js');?></code>
             </blockquote>
             <p>What's different about this code?</p>
             <p>In a nutshell, every click within the second example (<code>$('#list-2')</code>) is handled by the same function.</p>
